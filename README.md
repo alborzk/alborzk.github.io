@@ -54,7 +54,7 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
      
      - First, add the resume to your local repository by clicking Repository > Show in Explorer and moving or copying your resume.md file to the folder that opens.![](Pictures/showinexplorer.png)
     
-     - Once the resume has been added to your local repository, you can [commit](https://github.com/git-guides/git-commit) your changes to the remote repository using the "commit" panel at the bottom left. Be sure to fill in an appropriate title for the commit.
+     - Once the resume has been added to your local repository, you can [commit](https://github.com/git-guides/git-commit) your changes to the remote repository using the "commit" panel at the bottom left. Be sure to fill in an appropriate title for the commit.  
      ![commit panel](pictures/commit.png) 
 
 3. Push your changes to the remote repository. 
