@@ -111,7 +111,7 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
 
 ### Frequently Asked Questions
 
-###### Why is Markdown better than a word processor?
+**Why is Markdown better than a word processor?**
 
 - Markdown is a markup language that is designed for the web, and to have CSS run through it with ease. This is why websites use markup languages instead of Microsoft Word .docx files - you can see how messy that would look by the [source code](https://www.toptal.com/xml/an-informal-introduction-to-docx) for a .docx file.
 
