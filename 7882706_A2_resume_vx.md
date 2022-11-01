@@ -1,12 +1,6 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
-
----
 # **Alborz Khakbazan**
-(204) 402-0703  |  [khakbaza@myumanitoba.ca](mailto:khakbaza@myumanitoba.ca) |   [portfolio](www.alborzk.me)  |  [github](https://github.com/alborzk)  |  [linkedin](https://www.linkedin.com/in/alborzk/)
+(204) 402-0703  |  [khakbaza@myumanitoba.ca](mailto:khakbaza@myumanitoba.ca) |   [portfolio site](www.alborzk.me)  |  [github](https://github.com/alborzk)  |  [linkedin](https://www.linkedin.com/in/alborzk/)
 
 ---
 
