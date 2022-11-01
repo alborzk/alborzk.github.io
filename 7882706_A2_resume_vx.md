@@ -6,13 +6,13 @@ layout: home
 
 ---
 # **Alborz Khakbazan**
-(204) 402-0703  |  [khakbaza@myumanitoba.ca](mailto:khakbaza@myumanitoba.ca) |   [website](www.alborzk.me)  |  [github](https://github.com/alborzk)  |  [linkedin](https://www.linkedin.com/in/alborzk/)
+(204) 402-0703  |  [khakbaza@myumanitoba.ca](mailto:khakbaza@myumanitoba.ca) |   [portfolio](www.alborzk.me)  |  [github](https://github.com/alborzk)  |  [linkedin](https://www.linkedin.com/in/alborzk/)
 
 ---
 
 ## **Skills**  
 
-**Software Engineering**  **_∙_**  Java & Swing ∙ Python ∙ Android Studio ∙ Figma ∙ JUnit ∙ Unity ∙ Git ∙ VB.NET
+**Software Engineering**  **_∙_**  Java & Swing ∙ Python ∙ Android Studio ∙ Figma ∙ JUnit ∙ Unity ∙ Git ∙ VB.NET  
 **Web Development**  **_∙_**  React ∙ JavaScript ∙ HTML ∙ CSS ∙ Next.js ∙ Bootstrap ∙ Tailwind ∙ Markdown  
 **Systems & Databases**  **_∙_**  C ∙ SQL ∙ MySQL ∙ Neo4J ∙ OpenGL ∙ Assembly ∙ Prolog ∙ PowerShell ∙ UNIX
 
@@ -23,8 +23,8 @@ layout: home
 ### **Portfolio Website**
 _JavaScript_   **_∙_**  _React_  **_∙_**  _Next.js_  **_∙_**  _Bootstrap_  **_∙_**  _HTML_  **_∙_**  _CSS_
 -  A website built with serverside rendering to improve my skills with React, that showcases more about me and what I can offer
--   Designed and coded the website out of pure interest, learning plenty about web development in the process
--   Independently solved problems and motivated self to continue, without resources from school or peers
+-  Designed and coded the website out of pure interest, learning plenty about web development in the process
+-  Independently solved problems and motivated self to continue, without resources from school or peers
 
 ### **Virtual Closet**  
 _Android Studio_  **_∙_**  _Java_  **_∙_**  _HTML_  **_∙_**  _CSS/Bulma_  **_∙_**  _JUnit (Tests)_ 
@@ -35,7 +35,7 @@ _Android Studio_  **_∙_**  _Java_  **_∙_**  _HTML_  **_∙_**  _CSS/Bu
 ### **LeagueDB** 
 _SQL_  **_∙_**  _Java_  **_∙_**  _Java Swing (GUI)_
 -  A database tool for the game “League of Legends”, allowing users to see tables or get results for specific queries
--   Built and linked the GUI to the database, drew an ER diagram for the system, and authored several SQL queries
+-  Built and linked the GUI to the database, drew an ER diagram for the system, and authored several SQL queries
 
 ---
 
@@ -70,7 +70,7 @@ Diploma & Honor Roll  **_∙_**  _Sep 2015 – June 2019_
 ## **Extracirricular**
 
 ### **University of Manitoba Engineering Society**  **_∙_**  **Winnipeg, MB**
-**_Graduation Head Director_**  **_∙_**  _Sep 2020 – Aug 2021_
+**_Graduation Head Director_**  **_∙_**  _Sep 2020 – Aug 2021_  
 **_First Year Committee Director_**  **_∙_**  _Sep 2019 – Aug 2020_
--  Represented 150+ graduating engineers, formally speaking to 80+ members during meetings and casting important votes on their behalf
+-   Represented 150+ graduating engineers, formally speaking to 80+ members during meetings and casting important votes on their behalf
 -   Led a team of 5 to fund and plan ceremonies, while connecting with company sponsors and maintaining professional relationships
