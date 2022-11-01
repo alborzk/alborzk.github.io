@@ -1,6 +1,6 @@
 
-# <center> Applying Etter's _Modern Technical Writing_ Principles to Host an Online Resume and README </center>
-### <center> COMP 3040 Assignment 2 -- Alborz Khakbazan  -- Fall 2022 </center>
+# Applying Etter's _Modern Technical Writing_ Principles to Host an Online Resume and README
+### COMP 3040 Assignment 2 -- Alborz Khakbazan  -- Fall 2022
 
 
 ---
