@@ -75,27 +75,29 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
    
    - GitHub Pages will automatically build and deploy your static site from the resume file you uploaded in Markdown, and let you know when the build is successful. For the initial setup, this process may take anywhere up to an hour. 
    
-   - *Why use GitHub Pages and Jekyll?*
+   - *Why use GitHub Pages?*
      
      - _GitHub Pages corresponds to Etter's key principle on using static sites. Etter recommends static sites because they are very simple, and are not prone to crashes or hacks._
-     
-     - _Jekyll corresponds to Etter's key principle on using static site generators. Etter recommends these because they can help create beautiful, functional static sites with minimal effort._
 
 6. Next, we will make our static site beautiful with the Jekyll theme of our choosing.
    
      - First, find a [theme](https://pages.github.com/themes/) that you like. Don't worry about making the perfect choice - you can always come back and change it later. 
      
-     - From your file explorer window of the repository, create a new text file called "_config.txt", and edit it to contain the text: `theme: jekyll-theme-[ThemeName]`. For example, this repository uses the Cayman theme - and so the _config file contains the text `theme: jekyll-theme-[cayman]`.
+     - From your file explorer window of the repository, create a new text file called "_config.txt", and edit it to contain the text: `theme: jekyll-theme-[ThemeName]`. For example, this repository uses the Cayman theme - and you can see that the _config file contains the text `theme: jekyll-theme-[cayman]`.
      
-     - Rename the "_config.txt" file, changing its filetype to "_config.yml" instead. If you are cannot see the filetypes when renaming your file, ensure you have them visible by selecting View > Show > File name extensions in your file explorer window. ![](pictures/filenames.png)
+     - Rename the "_config.txt" file, changing its filetype to "_config.yml" instead. If you cannot see the filetypes when renaming your file, ensure you have them visible by selecting "View > Show > File name extensions" in your file explorer window. ![](pictures/filenames.png)
 
      - Using the process seen in steps 2 and 3 above, commit and push this new file to your remote repository.
+
+     - *Why use Jekyll?*
+   
+       - _Jekyll corresponds to Etter's key principle on using static site generators. Etter recommends these because they can help create beautiful, functional static sites with minimal effort._
 
 6. Your resume should now be visible on GitHub Pages at `[RepositoryName]/[ResumeFilename]`. For example, the resume that was built for this repository is hosted on GitHub Pages with the link: `https://alborzk.github.io/resume`, where RepositoryName is `alborzk.github.io` and the ResumeFilename is `resume`. If not, try waiting a few minutes for the website to be deployed and reload the link, or see the [FAQ](#frequently-asked-questions).
 
 7. Done! Congratulations, and enjoy your new online resume.
 
-![gif of resume](pictures/resume_gif.gif)
+![](pictures/resume_gif.gif)
 ### More Resources
   -  [*Modern Technical Writing*](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) By Andrew Etter
   -  [*Markdown Tutorial*](https://www.markdowntutorial.com/)
