@@ -7,7 +7,9 @@
 
 ### Purpose
 
-The goal of this readme is to describe the practical steps of how to host and format a resume using GitHub Pages and Markdown. Additionally, it will relate these steps to the general principles of current Technical Writing, as explained in Andrew Etter's book [_Modern Technical Writing_](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). This guide is intended for a those with a novice level of computer science proficiency, and requires only a limited understanding of these technologies.
+The goal of this readme is to describe the practical steps of how to host and format a resume using GitHub Pages and Markdown. Additionally, it will relate these steps to the general principles of current Technical Writing, as explained in Andrew Etter's book [_Modern Technical Writing_](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). This guide is intended for novice computer science students, and requires only a limited understanding of these technologies. It is also intended for users on a Windows operating system.
+
+You can see what the final product will look like [here](https://alborzk.github.io/resume).
 
 ### Table of Contents
 
@@ -48,7 +50,7 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
 	- *Why use GitHub?*
   
 	  - *GitHub corresponds to Etter's key principle on using distributed version control. It provides better performance, facilitates concurrent work on the same file, and makes it easy to undo changes. It also makes your job easier, since a developer, tester, or experienced user can make changes to the documentation easily if something is incorrect or out of date.*
-1. Commit your markdown-formatted resume to your GitHub repository. 
+2. Commit your markdown-formatted resume to your GitHub repository. 
    
    - On GitHub Desktop: 
      
@@ -69,7 +71,9 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
    
    - Navigate to the settings of the GitHub repository.![](pictures/settings.png)
    
-   - Select the "GitHub Pages" tab and find a [theme](https://pages.github.com/themes/) you like. Don't worry about making the perfect choice - you can always come back and change it later. ![](pictures/pages.png)
+   - Select the "GitHub Pages" tab and ensure that your you have "Deploy from a branch" selected for the source setting, and the "main" branch and "root" folder for the branch setting.![](pictures/pages.png)
+   
+   - GitHub Pages will automatically build and deploy your static site from the resume file you uploaded in Markdown, and let you know when the build is successful. For the initial setup, this process may take anywhere up to an hour. 
    
    - *Why use GitHub Pages and Jekyll?*
      
@@ -77,9 +81,17 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
      
      - _Jekyll corresponds to Etter's key principle on using static site generators. Etter recommends these because they can help create beautiful, functional static sites with minimal effort._
 
+6. Next, we will make our static site beautiful with the Jekyll theme of our choosing.
+   
+     - First, find a [theme](https://pages.github.com/themes/) that you like. Don't worry about making the perfect choice - you can always come back and change it later. 
+     
+     - From your file explorer window of the repository, create a new text file called "_config.txt", and edit it to contain the text: `theme: jekyll-theme-[ThemeName]`. For example, this repository uses the Cayman theme - and so the _config file contains the text `theme: jekyll-theme-[cayman]`.
+     
+     - Rename the "_config.txt" file, changing its filetype to "_config.yml" instead. If you are cannot see the filetypes when renaming your file, ensure you have them visible by selecting View > Show > File name extensions in your file explorer window. ![](pictures/filenames.png)
 
+     - Using the process seen in steps 2 and 3 above, commit and push this new file to your remote repository.
 
-6. Your resume should now be visible on GitHub Pages at `[RepositoryName]/[ResumeFilename]`. For example, the resume that was built for this repository is hosted on GitHub Pages with the link: `https://alborzk.github.io/7882706_A2_resume`, where RepositoryName is `alborzk.github.io` and the ResumeFilename is `7882706_A2_resume`. If not, try waiting a few minutes for the website to be deployed and reload the link, or see the [FAQ](#frequently-asked-questions).
+6. Your resume should now be visible on GitHub Pages at `[RepositoryName]/[ResumeFilename]`. For example, the resume that was built for this repository is hosted on GitHub Pages with the link: `https://alborzk.github.io/resume`, where RepositoryName is `alborzk.github.io` and the ResumeFilename is `resume`. If not, try waiting a few minutes for the website to be deployed and reload the link, or see the [FAQ](#frequently-asked-questions).
 
 7. Done! Congratulations, and enjoy your new online resume.
 
@@ -87,8 +99,8 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
 ### More Resources
   -  [*Modern Technical Writing*](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) By Andrew Etter
   -  [*Markdown Tutorial*](https://www.markdowntutorial.com/)
-  -  [[Wordpress Markdown Cheatsheet](https://wordpress.com/support/markdown-quick-reference/)
-  -  [GitHub Documentation](https://guides.github.com/features/mastering-markdown/)
+  -  [*Wordpress Markdown Cheatsheet*](https://wordpress.com/support/markdown-quick-reference/)
+  -  [*GitHub Documentation*](https://guides.github.com/features/mastering-markdown/)
   
 
 ### Authors and Acknowledgements
@@ -121,6 +133,6 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
 
 **I can see the README but not my resume. What's wrong?**
 
-- If this is the case, make sure you are being specific with the url you are visiting. Instead of viewing `https://RepositoryName/ResumeFilename`, you might be viewing `https://RepositoryName/` or `https://RepositoryName/ReadmeFilename`.
+- If this is the case, make sure you are being specific with the url you are visiting. Instead of viewing `https://RepositoryName/ResumeFilename`, you might be viewing `https://RepositoryName` or `https://RepositoryName/ReadmeFilename`.
 
 
