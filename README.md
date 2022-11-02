@@ -19,7 +19,7 @@ The goal of this readme is to describe the practical steps of how to host and fo
 
 - [Authors and Acknowledgements](#authors-and-acknowledgements)
 
-- [Frequently Asked Questions](#faq)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
 ### Prerequisites
 
@@ -86,6 +86,10 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
 ![gif of resume](pictures/resume_gif.gif)
 ### More Resources
   -  [*Modern Technical Writing*](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) By Andrew Etter
+  -  [*Markdown Tutorial*](https://www.markdowntutorial.com/)
+  -  [[Wordpress Markdown Cheatsheet](https://wordpress.com/support/markdown-quick-reference/)
+  -  [GitHub Documentation](https://guides.github.com/features/mastering-markdown/)
+  
 
 ### Authors and Acknowledgements
 
@@ -99,9 +103,9 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
   
   - Tristan Dyck
   
-- Jekyll theme: [Slate](https://github.com/pages-themes/slate)
+- Jekyll Theme: [Cayman](https://github.com/pages-themes/cayman)
 
-- Template credit: 
+- Template Credit: 
   
   - University of Manitoba
   
@@ -115,7 +119,7 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
 
 - Markdown is a markup language that is designed for the web, and to have CSS run through it with ease. This is why websites use markup languages instead of Microsoft Word .docx files - you can see how messy that would look by the [source code](https://www.toptal.com/xml/an-informal-introduction-to-docx) for a .docx file.
 
-**I can see the README on Github Pages but not my resume. What's wrong?**
+**I can see the README but not my resume. What's wrong?**
 
 - If this is the case, make sure you are being specific with the url you are visiting. Instead of viewing `https://RepositoryName/ResumeFilename`, you might be viewing `https://RepositoryName/` or `https://RepositoryName/ReadmeFilename`.
 
