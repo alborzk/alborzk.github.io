@@ -19,7 +19,7 @@ The goal of this readme is to describe the practical steps of how to host and fo
 
 - [Authors and Acknowledgements](#authors-and-acknowledgements)
 
-- [Frequently Asked Questions](#faq)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
 ### Prerequisites
 
@@ -99,7 +99,7 @@ This is a step-by-step demonstration on how to host a resume on GitHub Pages, wh
   
   - Tristan Dyck
   
-- Jekyll theme: [Slate](https://github.com/pages-themes/slate)
+- Jekyll theme: [Cayman](https://github.com/pages-themes/cayman)
 
 - Template credit: 
   
