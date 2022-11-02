@@ -9,6 +9,8 @@
 
 The goal of this readme is to describe the practical steps of how to host and format a resume using GitHub Pages and Markdown. Additionally, it will relate these steps to the general principles of current Technical Writing, as explained in Andrew Etter's book [_Modern Technical Writing_](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). This guide is intended for a those with a novice level of computer science proficiency, and requires only a limited understanding of these technologies.
 
+You can see what the final product will look like [here](https://alborzk.github.io/resume).
+
 ### Table of Contents
 
 - [Prerequisites](#prerequisites)
